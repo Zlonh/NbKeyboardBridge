@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 深蓝底色 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="290"
+                android:startColor="@color/hero_top"
+                android:endColor="@color/hero_bottom"
+                android:type="linear" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+    <!-- 右上角光晕，模拟参考截图里的柔和圆形高光 -->
+    <item
+        android:gravity="top|end"
+        android:width="230dp"
+        android:height="230dp"
+        android:top="-70dp"
+        android:right="-60dp">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="115dp"
+                android:startColor="@color/hero_glow"
+                android:endColor="#002F6BD8" />
+        </shape>
+    </item>
+    <!-- 左下角一层更淡的光晕 -->
+    <item
+        android:gravity="bottom|start"
+        android:width="180dp"
+        android:height="180dp"
+        android:bottom="-90dp"
+        android:left="-40dp">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="90dp"
+                android:startColor="#1A5B93E8"
+                android:endColor="#005B93E8" />
+        </shape>
+    </item>
+</layer-list>

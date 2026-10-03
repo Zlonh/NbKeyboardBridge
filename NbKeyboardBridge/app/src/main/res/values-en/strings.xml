@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BLE Key Bridge</string>
+
+    <string name="hero_badge">BLE TEXT BRIDGE</string>
+    <string name="hero_title">BLE Keyboard Helper</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_scanning">Scanning</string>
+
+    <string name="hero_waiting_title">Waiting for connection</string>
+    <string name="hero_waiting_desc">Scan for a nearby Bluetooth device whose name starts with NB-</string>
+    <string name="hero_ready_title">Connection ready</string>
+    <string name="hero_ready_desc">Confirm the keyboard on your PC, then type and send</string>
+    <string name="hero_host_online_title">PC recognized the keyboard</string>
+    <string name="hero_host_online_desc">The module has an active USB keyboard link to the PC</string>
+
+    <string name="section_device">DEVICE</string>
+    <string name="title_device">Device connection</string>
+    <string name="action_scan">Scan for NB- devices</string>
+    <string name="action_stop_scan">Stop scanning</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="quick_reconnect">Quick reconnect</string>
+    <string name="no_last_device">No previous device</string>
+    <string name="found_devices">Devices found</string>
+
+    <string name="section_content">CONTENT</string>
+    <string name="title_content">Content to send</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_clear">Clear</string>
+    <string name="hint_input">Type or paste the text to send to your PC</string>
+    <string name="counter_format">%1$d / 5000</string>
+    <string name="counter_zero">0 / 5000</string>
+
+    <string name="group_common">Common</string>
+    <string name="group_edit">Editing &amp; navigation</string>
+    <string name="group_media">Media &amp; system</string>
+
+    <string name="title_speed">Send speed</string>
+    <string name="speed_hint">Recommended balance of speed and reliability</string>
+    <string name="speed_stable">Stable</string>
+    <string name="speed_stable_desc">Compatibility first</string>
+    <string name="speed_balanced">Balanced</string>
+    <string name="speed_balanced_desc">Recommended</string>
+    <string name="speed_fast">Turbo</string>
+    <string name="speed_fast_desc">Keeps key frames</string>
+
+    <string name="action_send">Send to PC</string>
+    <string name="action_send_need_device">Connect a device first</string>
+    <string name="action_sending">Sending %1$d%%</string>
+    <string name="action_cancel_send">Stop sending</string>
+
+    <string name="section_shortcuts">SHORTCUTS</string>
+    <string name="title_shortcuts">Common shortcuts</string>
+    <string name="shortcuts_subtitle">Send one key</string>
+    <string name="shortcuts_long_press">Long press to repeat</string>
+    <string name="option_replace_selection">Select all and delete before sending (overwrite selection on the PC)</string>
+    <string name="option_fold_fullwidth">Convert full-width punctuation to half-width</string>
+    <string name="title_options">Send options</string>
+
+    <string name="permission_rationale">The "Nearby devices" permission is required to scan for and connect to the NB- module.</string>
+    <string name="action_grant">Grant permission</string>
+    <string name="bluetooth_off">Bluetooth is off, please turn it on</string>
+    <string name="action_open_bluetooth">Turn on Bluetooth</string>
+
+    <string name="empty_devices">No devices yet — tap the button above to start scanning</string>
+    <string name="dialog_single_key_title">Send a single key</string>
+    <string name="dialog_repeat_hint">Repeat count</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">OK</string>
+</resources>

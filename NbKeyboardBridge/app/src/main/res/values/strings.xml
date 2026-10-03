@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">蓝牙键盘助手</string>
+
+    <string name="hero_badge">BLE TEXT BRIDGE</string>
+    <string name="hero_title">蓝牙键盘助手</string>
+    <string name="status_disconnected">未连接</string>
+    <string name="status_connecting">连接中</string>
+    <string name="status_connected">已连接</string>
+    <string name="status_scanning">扫描中</string>
+
+    <string name="hero_waiting_title">等待连接</string>
+    <string name="hero_waiting_desc">请扫描附近名称以 NB- 开头的蓝牙设备</string>
+    <string name="hero_ready_title">连接已就绪</string>
+    <string name="hero_ready_desc">在电脑上确认键盘已识别，然后输入内容并发送</string>
+    <string name="hero_host_online_title">电脑已识别键盘</string>
+    <string name="hero_host_online_desc">模块已与电脑建立 USB 键盘连接</string>
+
+    <string name="section_device">DEVICE</string>
+    <string name="title_device">设备连接</string>
+    <string name="action_scan">扫描 NB- 设备</string>
+    <string name="action_stop_scan">停止扫描</string>
+    <string name="action_disconnect">断开连接</string>
+    <string name="quick_reconnect">快速重连</string>
+    <string name="no_last_device">暂无历史设备</string>
+    <string name="found_devices">发现的设备</string>
+
+    <string name="section_content">CONTENT</string>
+    <string name="title_content">发送内容</string>
+    <string name="action_paste">粘贴</string>
+    <string name="action_clear">清空</string>
+    <string name="hint_input">输入或粘贴要发送到电脑的文字</string>
+    <string name="counter_format">%1$d / 5000</string>
+    <string name="counter_zero">0 / 5000</string>
+
+    <string name="group_common">常用</string>
+    <string name="group_edit">编辑与导航</string>
+    <string name="group_media">媒体与系统</string>
+
+    <string name="title_speed">发送速度</string>
+    <string name="speed_hint">推荐，速度与可靠性兼顾</string>
+    <string name="speed_stable">稳定</string>
+    <string name="speed_stable_desc">兼容优先</string>
+    <string name="speed_balanced">均衡</string>
+    <string name="speed_balanced_desc">推荐</string>
+    <string name="speed_fast">极速</string>
+    <string name="speed_fast_desc">关键帧保护</string>
+
+    <string name="action_send">发送到电脑</string>
+    <string name="action_send_need_device">请先连接设备</string>
+    <string name="action_sending">发送中 %1$d%%</string>
+    <string name="action_cancel_send">停止发送</string>
+
+    <string name="section_shortcuts">SHORTCUTS</string>
+    <string name="title_shortcuts">常用快捷键</string>
+    <string name="shortcuts_subtitle">发送单次按键</string>
+    <string name="shortcuts_long_press">长按可连续发送</string>
+    <string name="option_replace_selection">发送前先全选并删除（覆盖电脑上已选内容）</string>
+    <string name="option_fold_fullwidth">全角标点自动转为半角</string>
+    <string name="title_options">发送选项</string>
+
+    <string name="permission_rationale">需要「附近的设备」权限才能扫描并连接 NB- 蓝牙模块。</string>
+    <string name="action_grant">授予权限</string>
+    <string name="bluetooth_off">蓝牙未开启，请先开启蓝牙</string>
+    <string name="action_open_bluetooth">开启蓝牙</string>
+
+    <string name="empty_devices">还没有发现设备，点上方按钮开始扫描</string>
+    <string name="dialog_single_key_title">发送单个按键</string>
+    <string name="dialog_repeat_hint">连续发送次数</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_confirm">确定</string>
+</resources>

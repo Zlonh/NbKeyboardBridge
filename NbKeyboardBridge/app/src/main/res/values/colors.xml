@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 品牌蓝，取自参考截图的按钮与选中态 -->
+    <color name="brand_blue">#2563EB</color>
+    <color name="brand_blue_pressed">#1D4ED8</color>
+    <color name="brand_blue_disabled">#93B4F5</color>
+    <color name="brand_blue_ghost">#E8EFFE</color>
+    <color name="brand_blue_light">#DCE7FD</color>
+
+    <!-- 顶部状态卡渐变（深蓝） -->
+    <color name="hero_top">#123A82</color>
+    <color name="hero_bottom">#1E4FA8</color>
+    <color name="hero_glow">#B32F6BD8</color>
+    <color name="hero_inner">#26FFFFFF</color>
+    <color name="hero_border">#33FFFFFF</color>
+
+    <!-- 页面与卡片 -->
+    <color name="page_bg">#F2F3F7</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="field_bg">#F7F8FB</color>
+    <color name="segment_track">#F1F3F7</color>
+    <color name="chip_ghost">#F4F6FA</color>
+
+    <!-- 文字 -->
+    <color name="text_primary">#101828</color>
+    <color name="text_secondary">#667085</color>
+    <color name="text_hint">#98A2B3</color>
+    <color name="text_on_brand">#FFFFFF</color>
+    <color name="text_on_hero">#FFFFFF</color>
+    <color name="text_on_hero_dim">#B9CCEC</color>
+
+    <!-- 状态 -->
+    <color name="status_ok">#12B76A</color>
+    <color name="status_warn">#F79009</color>
+    <color name="status_off">#98A2B3</color>
+    <color name="divider">#EAECF0</color>
+    <color name="stroke">#E4E7EC</color>
+</resources>
